@@ -7,6 +7,7 @@ import UnderstandingForm from '../UnderstandingForm/UnderstandingForm';
 import SupportedForm from '../SupportedForm/SupportedForm';
 import CommentsForm from '../CommentsForm/CommentsForm';
 import ReviewPage from '../ReviewPage/ReviewPage';
+import SuccessPage from '../SuccessPage/SuccessPage';
 
 function App() {
 
@@ -37,6 +38,10 @@ function App() {
         <Route path="/review" exact>
           {/* source in the ReviewPage component */}
           <ReviewPage />
+        </Route>
+        <Route path="/success" exact>
+          {/* source in the ReviewPage component */}
+          <SuccessPage />
         </Route>
       </Router>
     </div>
