@@ -1,12 +1,12 @@
 [ ] Create a reflection/feedback form modeled after Prime's system
   (feedback will be collected over 4 views, with a separate review page)
-    [ ] SETUP
+    [X] SETUP
         [X] Create a database using Postico called 'prime_feedback'
             [X] execute statement using data.sql file to create a table
         [X] Install all necessary dependencies for App to run
         [X] Run commands npm run server/client in 2 new terminal tabs
-        [ ] Determine what routes will need to be made and make those routers
-        [ ] Add modified files to push to git under master branch, then create
+        [X] Determine what routes will need to be made and make those routers
+        [X] Add modified files to push to git under master branch, then create
             a new feature branch after for each iteration of the App
     [ ] How are you feeling today?
         [ ] Create FeelingForm folder/file.jsx
