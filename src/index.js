@@ -39,12 +39,20 @@ const supportedReducer = (state = 0, action) => {
     return state;
 }
 
+// add the commentsReducer
+const commentsReducer = (state = 0, action) => {
+    if (action.type === 'COMMENTS_FORM_INPUT') {
+        return action.payload;
+    }
+    return state;
+}
+
 const storeInstance = createStore(
     combineReducers({
         feelingReducer,
         understandingReducer,
         supportedReducer,
-        // commentsReducer
+        commentsReducer
     }),
 
     // setup logger
