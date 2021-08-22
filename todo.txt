@@ -1,4 +1,4 @@
-[ ] Create a reflection/feedback form modeled after Prime's system
+[X] Create a reflection/feedback form modeled after Prime's system
   (feedback will be collected over 4 views, with a separate review page)
     [X] SETUP
         [X] Create a database using Postico called 'prime_feedback'
@@ -54,15 +54,15 @@
         [X] 'SUBMIT' button that runs two functions:
             [X] Sends all the global state to the database (axios 'POST')
             [X] Sends user to the next endpoint route ('/success')
-    [ ] Success Page
+    [X] Success Page
         [X] Create SuccessPage folder/file.jsx
-        [ ] <h1> Feedback! </h1>
-            [ ] Styling: Wrap in a box across the page and put an icon inside
+        [X] <h1> Feedback! </h1>
+            [X] Styling: Wrap in a box across the page and put an icon inside
                 of it on the left-hand side
-        [ ] <h1> Thank you! </h1>
-            [ ] Styling: Wrap in a box across the page and more vertically 
+        [X] <h1> Thank you! </h1>
+            [X] Styling: Wrap in a box across the page and more vertically 
                 as well. Underneath the text should be a
-                [ ] <button>Leave New Feedback</button> that resets all the data
+                [X] <button>Leave New Feedback</button> that resets all the data
                     and goes back to the first step
 --------------------------------END OF BASE GOALS--------------------------------
 /////////////////////////////////////////////////////////////////////////////////

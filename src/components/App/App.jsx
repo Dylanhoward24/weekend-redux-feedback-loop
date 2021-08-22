@@ -40,7 +40,7 @@ function App() {
           <ReviewPage />
         </Route>
         <Route path="/success" exact>
-          {/* source in the ReviewPage component */}
+          {/* source in the SuccessPage component */}
           <SuccessPage />
         </Route>
       </Router>

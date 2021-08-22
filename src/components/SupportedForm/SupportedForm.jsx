@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
+import './SupportedForm.css';
 
 function SupportedForm() {
 
@@ -48,7 +49,7 @@ function SupportedForm() {
             <h1> How well are you being supported? </h1>
             <p> Support? </p>
             <form>
-                <input
+                <input id="supportedInput"
                     required
                     type="number" min="1" max="5"
                     value={support}

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
+import './UnderstandingForm.css';
 
 function UnderstandingForm() {
 
@@ -49,7 +50,7 @@ function UnderstandingForm() {
             <h1> How well are you understanding the content? </h1>
             <p> Understanding? </p>
             <form>
-                <input
+                <input id="understandingInput"
                     required
                     type="number" min="1" max="5"
                     value={understanding}

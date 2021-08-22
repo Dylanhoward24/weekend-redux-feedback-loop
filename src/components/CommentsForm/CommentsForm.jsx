@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
+import './CommentsForm.css';
 
 function CommentsForm() {
 
@@ -43,7 +44,7 @@ function CommentsForm() {
             <h1> Any comments you want to leave? </h1>
             <p> Comments </p>
             <form>
-                <input
+                <input id="commentsInput"
                     type="text"
                     value={comments}
                     onChange={(event) => setComments(event.target.value)}
