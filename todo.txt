@@ -45,6 +45,7 @@
             [X] Sends user to the next enpoint route (/'review')
         [X] Setup commentsReducer on index
     [ ] Review Your Feedback
+        [ ] Create ReviewPage folder/file.jsx
         [ ] <h1> Review Your Feedback </h1>
         [ ] <p> Feelings: {feelingsReducer}
         [ ] <p> Understanding: {understandingReducer}
