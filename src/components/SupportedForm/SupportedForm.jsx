@@ -36,7 +36,7 @@ function SupportedForm() {
             });
 
             // useHistory to push us to the desired route
-            // history.push('/comments');
+            history.push('/comments');
         }else if (support < 1 || support > 5) {
             alert('Please enter a number value of 1 through 5');
             return null;

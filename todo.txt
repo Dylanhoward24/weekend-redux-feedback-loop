@@ -26,7 +26,7 @@
             [X] Sends local state to global state (understandingReducer)
             [X] Sends user to the next enpoint route (/'support')
         [X] Setup understandingReducer on index
-    [ ] How well are you being supported?
+    [X] How well are you being supported?
         [X] Create SupportedForm folder/file.jsx
         [X] <h1> How well are you being supported? </h1>
         [X] <p> Support? </p>
@@ -34,16 +34,16 @@
         [X] 'NEXT' button that runs two functions:
             [X] Sends local state to global state (supportReducer)
             [X] Sends user to the next enpoint route (/'comments')
-        [ ] Setup supportReducer on index
-    [ ] Any comments you want to leave?
-        [ ] Create SupportedForm folder/file.jsx
-        [ ] <h1> Any comments you want to leave? </h1>
-        [ ] <p> Comments </p>
-        [ ] Input that allows text
-        [ ] 'NEXT' button that runs two functions:
-            [ ] Sends local state to global state (commentsReducer)
-            [ ] Sends user to the next enpoint route (/'review')
-        [ ] Setup commentsReducer on index
+        [X] Setup supportReducer on index
+    [X] Any comments you want to leave?
+        [X] Create CommentsForm folder/file.jsx
+        [X] <h1> Any comments you want to leave? </h1>
+        [X] <p> Comments </p>
+        [X] Input that allows text
+        [X] 'NEXT' button that runs two functions:
+            [X] Sends local state to global state (commentsReducer)
+            [X] Sends user to the next enpoint route (/'review')
+        [X] Setup commentsReducer on index
     [ ] Review Your Feedback
         [ ] <h1> Review Your Feedback </h1>
         [ ] <p> Feelings: {feelingsReducer}
