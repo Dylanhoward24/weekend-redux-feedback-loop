@@ -27,13 +27,13 @@
             [X] Sends user to the next enpoint route (/'support')
         [X] Setup understandingReducer on index
     [ ] How well are you being supported?
-        [ ] Create SupportedForm folder/file.jsx
-        [ ] <h1> How well are you being supported? </h1>
-        [ ] <p> Support? </p>
-        [ ] Input that allows a number, make the value required
-        [ ] 'NEXT' button that runs two functions:
-            [ ] Sends local state to global state (supportReducer)
-            [ ] Sends user to the next enpoint route (/'comments')
+        [X] Create SupportedForm folder/file.jsx
+        [X] <h1> How well are you being supported? </h1>
+        [X] <p> Support? </p>
+        [X] Input that allows a number, make the value required
+        [X] 'NEXT' button that runs two functions:
+            [X] Sends local state to global state (supportReducer)
+            [X] Sends user to the next enpoint route (/'comments')
         [ ] Setup supportReducer on index
     [ ] Any comments you want to leave?
         [ ] Create SupportedForm folder/file.jsx
