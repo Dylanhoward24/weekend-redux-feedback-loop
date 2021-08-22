@@ -17,15 +17,15 @@
             [X] Sends local state to global state (feelingReducer)
             [X] Sends user to the next endpoint route (/'understanding')
         [X] Setup feelingReducer on index
-    [ ] How well are you understanding the content?
-        [ ] Create UnderstandingForm folder/file.jsx
-        [ ] <h1> How well are you understanding the content? </h1>
-        [ ] <p> Understanding? </p>
-        [ ] Input that allows a number, make the value required
-        [ ] 'NEXT' button that runs two functions:
-            [ ] Sends local state to global state (understandingReducer)
-            [ ] Sends user to the next enpoint route (/'support')
-        [ ] Setup understandingReducer on index
+    [X] How well are you understanding the content?
+        [X] Create UnderstandingForm folder/file.jsx
+        [X] <h1> How well are you understanding the content? </h1>
+        [X] <p> Understanding? </p>
+        [X] Input that allows a number, make the value required
+        [X] 'NEXT' button that runs two functions:
+            [X] Sends local state to global state (understandingReducer)
+            [X] Sends user to the next enpoint route (/'support')
+        [X] Setup understandingReducer on index
     [ ] How well are you being supported?
         [ ] Create SupportedForm folder/file.jsx
         [ ] <h1> How well are you being supported? </h1>

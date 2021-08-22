@@ -17,10 +17,18 @@ const feelingReducer = (state = 0, action) => {
     return state;
 }
 
+// add the understandingReducer
+const understandingReducer = (state = 0, action) => {
+    if (action.type === 'UNDERSTANDING_FORM_INPUT') {
+        return action.payload;
+    }
+    return state;
+}
+
 const storeInstance = createStore(
     combineReducers({
         feelingReducer,
-        // understandingReducer,
+        understandingReducer,
         // supportReducer,
         // commentsReducer
     }),
