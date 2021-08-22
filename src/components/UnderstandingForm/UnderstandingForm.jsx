@@ -36,10 +36,11 @@ function UnderstandingForm() {
             });
 
             // useHistory to push us to the desired route
-            // history.push('/understanding');
+            history.push('/supported');
         }else if (understanding < 1 || understanding > 5) {
-            alert('Please enter a number value of 1 through 5');
-            return null;
+            return (
+                alert('Please enter a number value of 1 through 5')
+            );
         }
     }
 

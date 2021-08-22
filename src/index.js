@@ -12,7 +12,9 @@ import logger from 'redux-logger'
 // add the feelingReducer
 const feelingReducer = (state = 0, action) => {
     if (action.type === 'FEELING_FORM_INPUT') {
-        return action.payload;
+        if (1 <= action.payload <= 5) {
+            return action.payload;
+        }
     }
     return state;
 }
@@ -20,7 +22,19 @@ const feelingReducer = (state = 0, action) => {
 // add the understandingReducer
 const understandingReducer = (state = 0, action) => {
     if (action.type === 'UNDERSTANDING_FORM_INPUT') {
-        return action.payload;
+        if (1 <= action.payload <= 5) {
+            return action.payload;
+        }
+    }
+    return state;
+}
+
+// add the supportedReducer
+const supportedReducer = (state = 0, action) => {
+    if (action.type === 'SUPPORTED_FORM_INPUT') {
+        if (1 <= action.payload <= 5) {
+            return action.payload;
+        }
     }
     return state;
 }
@@ -29,7 +43,7 @@ const storeInstance = createStore(
     combineReducers({
         feelingReducer,
         understandingReducer,
-        // supportReducer,
+        supportedReducer,
         // commentsReducer
     }),
 
