@@ -55,6 +55,7 @@
             [X] Sends all the global state to the database (axios 'POST')
             [X] Sends user to the next endpoint route ('/success')
     [ ] Success Page
+        [X] Create SuccessPage folder/file.jsx
         [ ] <h1> Feedback! </h1>
             [ ] Styling: Wrap in a box across the page and put an icon inside
                 of it on the left-hand side
