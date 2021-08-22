@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
+import './FeelingForm.css';
 
 function FeelingForm() {
 
@@ -47,7 +48,7 @@ function FeelingForm() {
             <h1> How are you feeling today? </h1>
             <p> Feeling? </p>
             <form>
-                <input
+                <input id="feelingInput"
                     required
                     type="number" min="1" max="5"
                     value={feeling}
