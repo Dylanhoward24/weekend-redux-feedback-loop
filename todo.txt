@@ -1,0 +1,64 @@
+[ ] Create a reflection/feedback form modeled after Prime's system
+  (feedback will be collected over 4 views, with a separate review page)
+    [ ] SETUP
+        [X] Create a database using Postico called 'prime_feedback'
+            [X] execute statement using data.sql file to create a table
+        [X] Install all necessary dependencies for App to run
+        [X] Run commands npm run server/client in 2 new terminal tabs
+        [ ] Determine what routes will need to be made and make those routers
+        [ ] Add modified files to push to git under master branch, then create
+            a new feature branch after for each iteration of the App
+    [ ] How are you feeling today?
+        [ ] Create FeelingForm folder/file.jsx
+        [ ] <h1> How are you feeling today? </h1>
+        [ ] <p> Feeling? </p>
+        [ ] Input that allows a number, make the value required
+        [ ] 'NEXT' button that runs two functions:
+            [ ] Sends local state to global state (feelingsReducer)
+            [ ] Sends user to the next endpoint route (/'understanding')
+    [ ] How well are you understanding the content?
+        [ ] Create UnderstandingForm folder/file.jsx
+        [ ] <h1> How well are you understanding the content? </h1>
+        [ ] <p> Understanding? </p>
+        [ ] Input that allows a number, make the value required
+        [ ] 'NEXT' button that runs two functions:
+            [ ] Sends local state to global state (understandingReducer)
+            [ ] Sends user to the next enpoint route (/'support')
+    [ ] How well are you being supported?
+        [ ] Create SupportedForm folder/file.jsx
+        [ ] <h1> How well are you being supported? </h1>
+        [ ] <p> Support? </p>
+        [ ] Input that allows a number, make the value required
+        [ ] 'NEXT' button that runs two functions:
+            [ ] Sends local state to global state (supportReducer)
+            [ ] Sends user to the next enpoint route (/'comments')
+    [ ] Any comments you want to leave?
+        [ ] Create SupportedForm folder/file.jsx
+        [ ] <h1> Any comments you want to leave? </h1>
+        [ ] <p> Comments </p>
+        [ ] Input that allows text
+        [ ] 'NEXT' button that runs two functions:
+            [ ] Sends local state to global state (commentsReducer)
+            [ ] Sends user to the next enpoint route (/'review')
+    [ ] Review Your Feedback
+        [ ] <h1> Review Your Feedback </h1>
+        [ ] <p> Feelings: {feelingsReducer}
+        [ ] <p> Understanding: {understandingReducer}
+        [ ] <p> Support: {supportReducer}
+        [ ] <p> Comments: {commentsReducer}
+        [ ] 'SUBMIT' button that runs two functions:
+            [ ] Sends all the global state to the database (axios 'POST')
+            [ ] Sends user to the next endpoint route ('/success')
+    [ ] Success Page
+        [ ] <h1> Feedback! </h1>
+            [ ] Styling: Wrap in a box across the page and put an icon inside
+                of it on the left-hand side
+        [ ] <h1> Thank you! </h1>
+            [ ] Styling: Wrap in a box across the page and more vertically 
+                as well. Underneath the text should be a
+                [ ] <button>Leave New Feedback</button> that resets all the data
+                    and goes back to the first step
+--------------------------------END OF BASE GOALS--------------------------------
+/////////////////////////////////////////////////////////////////////////////////
+----------------------------------STRETCH GOALS----------------------------------
+[ ] 
