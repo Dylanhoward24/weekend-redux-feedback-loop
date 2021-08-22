@@ -32,7 +32,7 @@ function SupportedForm() {
             // supportReducer in the index.js file
             dispatch({
                 type: 'SUPPORTED_FORM_INPUT',
-                payload: {support}
+                payload: support
             });
 
             // useHistory to push us to the desired route

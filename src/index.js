@@ -40,7 +40,7 @@ const supportedReducer = (state = 0, action) => {
 }
 
 // add the commentsReducer
-const commentsReducer = (state = 0, action) => {
+const commentsReducer = (state = '', action) => {
     if (action.type === 'COMMENTS_FORM_INPUT') {
         return action.payload;
     }

@@ -32,7 +32,7 @@ function FeelingForm() {
             // feelingReducer in the index.js file
             dispatch({
                 type: 'FEELING_FORM_INPUT',
-                payload: {feeling}
+                payload: feeling
             });
 
             // useHistory to push us to the desired route
