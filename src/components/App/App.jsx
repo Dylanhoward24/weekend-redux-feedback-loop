@@ -6,6 +6,7 @@ import FeelingForm from '../FeelingForm/FeelingForm';
 import UnderstandingForm from '../UnderstandingForm/UnderstandingForm';
 import SupportedForm from '../SupportedForm/SupportedForm';
 import CommentsForm from '../CommentsForm/CommentsForm';
+import ReviewPage from '../ReviewPage/ReviewPage';
 
 function App() {
 
@@ -32,6 +33,10 @@ function App() {
         <Route path="/comments" exact>
           {/* source in the CommentsForm component */}
           <CommentsForm />
+        </Route>
+        <Route path="/review" exact>
+          {/* source in the ReviewPage component */}
+          <ReviewPage />
         </Route>
       </Router>
     </div>

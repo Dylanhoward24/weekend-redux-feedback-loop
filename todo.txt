@@ -44,16 +44,16 @@
             [X] Sends local state to global state (commentsReducer)
             [X] Sends user to the next enpoint route (/'review')
         [X] Setup commentsReducer on index
-    [ ] Review Your Feedback
-        [ ] Create ReviewPage folder/file.jsx
-        [ ] <h1> Review Your Feedback </h1>
-        [ ] <p> Feelings: {feelingsReducer}
-        [ ] <p> Understanding: {understandingReducer}
-        [ ] <p> Support: {supportReducer}
-        [ ] <p> Comments: {commentsReducer}
-        [ ] 'SUBMIT' button that runs two functions:
-            [ ] Sends all the global state to the database (axios 'POST')
-            [ ] Sends user to the next endpoint route ('/success')
+    [X] Review Your Feedback
+        [X] Create ReviewPage folder/file.jsx
+        [X] <h1> Review Your Feedback </h1>
+        [X] <p> Feelings: {feelingsReducer}
+        [X] <p> Understanding: {understandingReducer}
+        [X] <p> Support: {supportReducer}
+        [X] <p> Comments: {commentsReducer}
+        [X] 'SUBMIT' button that runs two functions:
+            [X] Sends all the global state to the database (axios 'POST')
+            [X] Sends user to the next endpoint route ('/success')
     [ ] Success Page
         [ ] <h1> Feedback! </h1>
             [ ] Styling: Wrap in a box across the page and put an icon inside

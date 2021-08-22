@@ -31,7 +31,7 @@ function CommentsForm() {
         // commentsReducer in the index.js file
         dispatch({
             type: 'COMMENTS_FORM_INPUT',
-            payload: {comments}
+            payload: comments
         });
 
         // useHistory to push us to the desired route

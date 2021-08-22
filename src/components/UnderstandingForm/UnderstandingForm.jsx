@@ -32,7 +32,7 @@ function UnderstandingForm() {
             // understandingReducer in the index.js file
             dispatch({
                 type: 'UNDERSTANDING_FORM_INPUT',
-                payload: {understanding}
+                payload: understanding
             });
 
             // useHistory to push us to the desired route
