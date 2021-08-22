@@ -3,6 +3,7 @@ import axios from 'axios';
 import './App.css';
 import {HashRouter as Router, Route, Link} from 'react-router-dom'
 import FeelingForm from '../FeelingForm/FeelingForm';
+import UnderstandingForm from '../UnderstandingForm/UnderstandingForm';
 
 function App() {
 
@@ -13,14 +14,8 @@ function App() {
         <h4>Don't forget it!</h4>
       </header>
 
-      {/*
-        // display the FeelingForm on page load
-        // and on /feeling endpoint route
-      */}
-      <FeelingForm />
-
       <Router>
-        <Route path="/feeling" exact>
+        <Route path="/" exact>
           {/* source in the FeelingForm component */}
           <FeelingForm />
         </Route>
@@ -40,6 +35,7 @@ function App() {
           {/* source in the ReviewPage component */}
           <ReviewPage />
         </Route>
+
       </Router>
     </div>
   );
